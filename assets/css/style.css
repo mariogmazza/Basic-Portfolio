@@ -1,0 +1,70 @@
+body{
+   background-image: url("organic-tiles.png");
+   font-family: 'Georgia', Times, Times New Roman, serif;
+ /*background-color: black;*/
+}
+nav {
+   float: right;
+   margin-right: 250px;
+   margin-top: 25px;
+   margin-bottom: 0px;
+}
+nav a{
+    margin-right: 20px;
+    color:#777777;
+
+}
+
+.Nav-bar{
+    border-bottom: 3px solid #846E6E;
+    position: relative;
+    
+}
+ .title{
+    background-color:#4aaaa5;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    width: 128px;
+    color: white;
+    font-size: 22px;
+    
+}
+
+.container-big{
+    clear: both;
+    overflow: auto;
+    margin:40px 650px 0 250px;
+    outline: 1px solid red;
+    position: absolute;
+    width: 40%;
+    height: 60%;
+}
+.container-small{
+    width: 20%;
+    height: 180px;
+    outline: 1px solid red;
+    float: right;
+    margin-top: 40px ;
+    margin-right:190px;
+    position: relative;
+}
+img{
+    float: left;
+    margin: 5px;
+}
+
+
+.container-big p{
+    clear: both;
+    overflow: auto;
+    padding: 5px;
+    
+}
+
+.container-big h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 4px;
+}
