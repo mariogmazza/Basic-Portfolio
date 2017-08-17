@@ -14,9 +14,11 @@ nav {
    background-color: #ffffff;
 }
 nav a{
-    margin-right: 20px;
+    margin-right: 0px;
     color:#777777;
     text-decoration: none;
+    border-right: 1px solid #666666;
+    padding: 5px;
 
 }
 
@@ -37,7 +39,6 @@ nav a{
     width: 128px;
     color: white;
     font-size: 22px;
-    
 }
 
 .container-big{
@@ -62,6 +63,10 @@ nav a{
 }
 .container-small .icons{
     margin-top: 20px;
+    margin-left: 20px;
+}
+.container-small  h1{
+    color:#4aaaa5;
 }
 .container-small h1{
     font-weight: bold;
@@ -82,17 +87,20 @@ img{
     clear: both;
     overflow: auto;
     padding: 5px;
-    
 }
 
 .container-big .aboutme{
-
-    border-bottom: 2px solid #676767
+    color: #4aaaa5;
 }
+
 .container-big .aboutme h1{
     font-weight: bold;
     font-size: 25px; 
-    margin: 5px;
+    margin: 20px;
+
+}
+.container-big p{
+    color: #666666;
 }
 footer{
     background-color: #666666;
@@ -103,4 +111,16 @@ footer{
     text-align: center;
     padding: 5px;
     border-top: 3px solid #4aaaa5;
+}
+
+/* style for contact.html */
+button{
+    width: 80px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+
+}
+.form-div{
+margin-left: 20px;  
 }
